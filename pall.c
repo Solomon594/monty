@@ -39,4 +39,3 @@ void f_pall(stack_t **head, unsigned int counter)
 	}
 
 }
-clear
