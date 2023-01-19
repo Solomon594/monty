@@ -62,10 +62,8 @@ int main(int argc, char *argv[])
 
 		content = NULL;
 
-		read_line = getline(&content, &size, file);
-
+		read_line = getline (&content, &size, file);
 		bus.content = content;
-
 		counter++;
 
 		if (read_line > 0)
